@@ -3,7 +3,6 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Paper, IconButton } from "@mui/material";
 import { Search } from "@mui/icons-material";
-import { shadows } from "@mui/system";
 
 function SearchBar() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -11,10 +10,8 @@ function SearchBar() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
     if (searchTerm) {
       navigate(`/search/${searchTerm}`);
-
       setSearchTerm("");
     }
   };

@@ -5,9 +5,7 @@ import { CheckCircle } from "@mui/icons-material";
 import {
   demoChannelTitle,
   demoChannelUrl,
-  demoThumbnailUrl,
   demoVideoUrl,
-  demoProfilePicture,
   demoVideoTitle,
 } from "../utils/constants";
 function VideoCard({
